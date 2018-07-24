@@ -1,0 +1,69 @@
+.nav-pills-custom>li>a {
+	color: lightgrey;
+}
+
+.nav-pills-custom>li>a:focus,
+.nav-pills-custom>li>a:hover {
+	background: none;
+	color: grey;
+}
+
+.panel-custom>.panel-heading {
+	background: none;
+	border-bottom: none;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	background-color: #4ab3f4;
+}
+.form-control-nav{
+	background-color:#e6ecf0;
+	border: transparent solid 1px;
+	border-radius:15px;
+	height: 30px;
+	width: 200px;
+
+}
+body{
+	background-color: #e6ecf0;
+}
+.navbar-default .navbar-collapse, .navbar-default{
+background-color: white;
+}
+.panel-footer{
+	background-color: #ffffff;
+}
+.well{
+	background-color: #ffffff;
+}
+a{
+	color:#73a1f2;
+}
+div.panel-heading{
+	padding-top:15px;
+	padding-bottom: 0px;
+}
+.form-control-feedback{
+	line-height:27px;
+}
+.panel-info{
+	border:1px lightgrey solid;
+}
+
+.panel-body>.list-unstyled>li>a {
+	font-weight: bold;
+}
+
+.panel-body>.list-unstyled>li>span {
+	color: #657786;
+	font-size: 12px;
+}
+
+.panel-body>.media>a>img {
+	height: 64px;
+	width: 64px;
+}
+
+.well>.list-inline>li>a {
+	color: #657786;
+}
