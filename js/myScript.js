@@ -1,16 +1,3 @@
-
-var logoImg = new Array(10);
-logoImg[0] = new Image();
-logoImg[0].src = "../img/toi.jpg";
-
-logoImg[1] = new Image();
-logoImg[1].src = "../img/aol.jpg";
-
-logoImg[2] = new Image();
-logoImg[2].src = "../img/znews.jpg";
-
-
-
 var myObj, i, j;
 myObj = {
     "name":"posts",
@@ -41,16 +28,6 @@ myObj = {
     ]
 }
 
-/*
-for (i in myObj.News) {
-    x +=  "<h4>" + myObj.News[i].postBy + "<small>" + "  " + myObj.News[i].postById + " . " + myObj.News[i].postTime + "</small></h4>" + "<p>" + myObj.News[i].post + "</p>";
-    x += "<p>" + myObj.News[i].Post + "</p>";
-    for (j in myObj.News[i].hashTag) {
-        x += myObj.News[i].hashTag[j] + "&nbsp;";
-    }
-    x += "<hr>";
-}
-*/
 
 var x =  "<h4>" + myObj.News[0].postBy + "<small>" + "  " + myObj.News[0].postById + " . " + myObj.News[0].postTime + "</small></h4>" + "<p>" + myObj.News[0].post + "</p>";
 document.getElementById("demo1").innerHTML =  x;
@@ -68,3 +45,65 @@ var z =  "<h4>" + myObj.News[2].postBy + "<small>" + "  " + myObj.News[2].postBy
 document.getElementById("demo3").innerHTML =  z;
 document.getElementById("commentPopup3").innerHTML =  z;
 document.getElementById("reTweet3").innerHTML =  z;
+
+
+
+/* Like Button Code*/
+var likeFirst = false;
+var likeSecond = false;
+var likeThird = false;
+
+
+var counter1 = document.getElementById("like1").innerHTML;
+function myFunction(){
+    if(likeFirst == false) {
+        likeFirst = true;
+        counter1++;
+        document.getElementById("like1").innerHTML = " " + counter1;
+    }
+
+    else {
+        likeFirst = false;
+        counter1--;
+        document.getElementById("like1").innerHTML = " " + counter1;
+    }
+}
+
+
+var counter2 = document.getElementById("like2").innerHTML;
+function myFunction1(){
+    if(likeSecond == false) {
+        likeSecond = true;
+        counter2++;
+        document.getElementById("like2").innerHTML = " " + counter2;
+    }
+
+    else {
+        likeSecond = false;
+        counter2--;
+        document.getElementById("like2").innerHTML = " " + counter2;
+    }
+}
+
+
+
+var counter3 = document.getElementById("like3").innerHTML;
+function myFunction2(){
+    if(likeThird == false) {
+        likeThird = true;
+        counter3++;
+        document.getElementById("like3").innerHTML = " " + counter3;
+    }
+
+    else {
+        likeThird = false;
+        counter3--;
+        document.getElementById("like3").innerHTML = " " + counter3;
+    }
+}
+
+
+
+
+
+
