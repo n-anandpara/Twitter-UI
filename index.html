@@ -86,10 +86,10 @@
 						<li><a href="#">#BlackMoneyCrackdown</a><br/><span>13K Tweets</span> </li>
 						<li><a href="#">#GeniusTrailerOutNow</a><br/><span>1,468 Tweets</span> </li>
 						<li><a href="#">#SarkarSarkarMeFarkHai</a><br/><span>1,910 Tweets</span> </li>
-						<li><a href="#">#IndiaTrustsModi</a><br/><span>11.5K Tweets</span></li>
-						<li><a href="#">#SRLCare</a><br/><span>5,942 Tweets</span></li>
-						<li><a href="#">#ABCofTaxes</a><br/><span>3,353 Tweets</span></li>
-						<li><a href="#">Maharashtra</a><br/><span>13.7K Tweets</span></li>
+						<li><a href="https://twitter.com/search?q=%23IndiaTrustsModi&src=typd">#IndiaTrustsModi</a><br/><span>11.5K Tweets</span></li>
+						<li><a href="https://twitter.com/search?q=%23SRLCare&src=tyah">#SRLCare</a><br/><span>5,942 Tweets</span></li>
+						<li><a href="https://twitter.com/search?q=%23ABCofTaxes&src=tyah">#ABCofTaxes</a><br/><span>3,353 Tweets</span></li>
+						<li><a href="https://twitter.com/search?q=Maharashtra&src=tren">Maharashtra</a><br/><span>13.7K Tweets</span></li>
 					</ul>
 				</div>
 			</div>
@@ -117,18 +117,84 @@
 							<img alt="" class="media-object img-rounded" src="img/toi.jpg">
 						</a>
 						<div class="media-body">
-							<h4 class="media-heading">Times of India <small>@timesofindia . 40m </small></h4>
-							<p>21-year-old woman accuses cops of gang rape in Bhopal http://toi.in/398LhY/a24gk  via @TOICitiesNews</p>
+							<!--<h4 class="media-heading">Times of India <small>@timesofindia . 40m </small></h4>
+							<p>21-year-old woman accuses cops of gang rape in Bhopal http://toi.in/398LhY/a24gk  via @TOICitiesNews</p>-->
+							<p id="demo1"></p>
+							<p> @TOICitiesNews </p>
 							<img src="img/news1.jpg" height="50%;" width="100%;" style="border: 1px solid #dddddd; border-radius: 4px;">
 							<ul class="nav nav-pills nav-pills-custom" style="font-size: 20px;">
-								<li><a href="#" type="button" class="btn" data-toggle="modal" data-target="#exampleModal" ><span><i class="far fa-comment"></i></span></a></li>
-								<li><a href="#"><span><i class="fas fa-retweet"></i></span></a></li>
-								<li><a href="#"><span><i class="far fa-heart"></i></span></a></li>
+								<li><a href="#" type="button" class="btn" data-toggle="modal" data-target="#exampleModal" ><span><i class="far fa-comment"></i></span> 12 </a></li>
+								<li><a href="#" type="button" class="btn" data-toggle="modal" data-target="#exampleModal11" ><span><i class="fas fa-retweet"></i></span> 51 </a></li>
+								<li><a href="#" type="button" class="btn" ><span><i class="far fa-heart"></i></span></a></li>
 								<li><a href="#"><span><i class="far fa-envelope"></i></span></a></li>
 							</ul>
 						</div>
 					</div>
 
+					<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+					  <div class="modal-dialog" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					        <h4 class="modal-title text-center" id="exampleModalLabel">Reply to Times Of India</h4>
+					      </div>
+					      <div class="modal-body">
+					        <form>
+					        <div class="row">
+					        <div class="col-sm-1">
+								<img alt="" class="media-object img-rounded" src="img/toi.jpg" height="40px" width="40px" style="margin-top: 10px">
+							</div>
+							<div class="col-sm-11">
+					      	<p id="commentPopup1"></p>
+					          <div class="form-group">
+					            <label for="message-text" class="control-label">Replaying to <small>@TimesOfIndia</small>:</label>
+					            <textarea class="form-control" id="message-text"></textarea>
+					          </div>
+					          </div>
+					        </div>
+					        </form>
+					      
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-primary">Reply</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+
+
+
+
+					<div class="modal fade" id="exampleModal11" tabindex="-1" role="dialog" aria-labelledby="exampleModal11Label">
+					  <div class="modal-dialog" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					        <h4 class="modal-title text-center" id="exampleModal11Label">Retweet this to your followers?</h4>
+					      </div>
+					      <div class="modal-body">
+					        <form>
+					        <div class="row">
+					        	<div class="form-group" style="padding: 10px; background-color: #e8f5fd;">
+					            	<input class="form-control" id="message-text" placeholder="Add a Comment...">
+					        	</div>
+					        <div class="col-sm-1">
+								<img alt="" class="media-object img-rounded" src="img/toi.jpg" height="40px" width="40px" style="margin-top: 10px">
+							</div>
+							<div class="col-sm-11">
+					      	<p id="reTweet1"></p>
+
+					          </div>
+					        </div>
+					        </form>
+					      
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-primary">Retweet</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>
 
 					<hr>
 
@@ -138,18 +204,85 @@
 							<img alt="" class="media-object img-rounded" src="img/aol.jpg">
 						</a>
 						<div class="media-body">
-							<h4 class="media-heading">Art Of Living <small>@ArtOfLiving . Jul 22</small></h4>
-							<p>When your mind is not complaining &amp; is responsible, courageous, confident &amp; hollow &amp; empty, you become inexplicably beautiful. ~ @SriSri #mondaymotivation #starttheweekright.</p>
+							<!--<h4 class="media-heading">Art Of Living <small>@ArtOfLiving . Jul 22</small></h4>
+							<p>When your mind is not complaining &amp; is responsible, courageous, confident &amp; hollow &amp; empty, you become inexplicably beautiful. ~ @SriSri #mondaymotivation #starttheweekright.</p>-->
+							<p id="demo2"></p>
+							<p>~ @SriSri #mondaymotivation #starttheweekright</p>
 							<img src="img/news2.jpg" height="50%;" width="100%;" style="border: 1px solid #dddddd; border-radius: 4px;">
 							<ul class="nav nav-pills nav-pills-custom" style="font-size: 20px;">
-								<li><a href="#"><span><i class="far fa-comment"></i></span></a></li>
-								<li><a href="#"><span><i class="fas fa-retweet"></i></span></a></li>
+								<li><a href="#" type="button" class="btn" data-toggle="modal" data-target="#exampleModal1" ><span><i class="far fa-comment"></i></span> 98 </a></li>
+								<li><a href="#" type="button" class="btn" data-toggle="modal" data-target="#exampleModal21" ><span><i class="fas fa-retweet"></i></span> 19 </a></li>
 								<li><a href="#"><span><i class="far fa-heart"></i></span></a></li>
 								<li><a href="#"><span><i class="far fa-envelope"></i></span></a></li>
 							</ul>
 						</div>
 					</div>
 
+
+
+
+					<div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModal1Label">
+					  <div class="modal-dialog" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					        <h4 class="modal-title text-center" id="exampleModal1Label">Reply to Art Of Living</h4>
+					      </div>
+					      <div class="modal-body">
+					        <form>
+					        <div class="row">
+					        <div class="col-sm-1">
+								<img alt="" class="media-object img-rounded" src="img/aol.jpg" height="40px" width="40px" style="margin-top: 10px">
+							</div>
+							<div class="col-sm-11">
+					      	<p id="commentPopup2"></p>
+					          <div class="form-group">
+					            <label for="message-text" class="control-label">Replaying to <small>@ArtOfLiving</small>:</label>
+					            <textarea class="form-control" id="message-text"></textarea>
+					          </div>
+					          </div>
+					        </div>
+					        </form>
+					      
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-primary">Reply</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+
+
+					<div class="modal fade" id="exampleModal21" tabindex="-1" role="dialog" aria-labelledby="exampleModal21Label">
+					  <div class="modal-dialog" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					        <h4 class="modal-title text-center" id="exampleModal21Label">Retweet this to your followers?</h4>
+					      </div>
+					      <div class="modal-body">
+					        <form>
+					        <div class="row">
+					        	<div class="form-group" style="padding: 10px; background-color: #e8f5fd;">
+					            	<input class="form-control" id="message-text" placeholder="Add a Comment...">
+					        	</div>
+					        <div class="col-sm-1">
+								<img alt="" class="media-object img-rounded" src="img/aol.jpg" height="40px" width="40px" style="margin-top: 10px">
+							</div>
+							<div class="col-sm-11">
+					      	<p id="reTweet2"></p>
+
+					          </div>
+					        </div>
+					        </form>
+					      
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-primary">Retweet</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>
 
 					<hr>
 
@@ -159,16 +292,83 @@
 							<img alt="" class="media-object img-rounded" src="img/abp.png">
 						</a>
 						<div class="media-body">
-							<h4 class="media-heading">ABP News</h4>
-							<p>IN PICS: PM Modi Donates 200 Cows To Rwanda <br/> <br/>#Rwanda #Cow @narendramodi </p>
+							<!--<h4 class="media-heading">ABP News</h4>
+							<p>IN PICS: PM Modi Donates 200 Cows To Rwanda <br/> <br/>#Rwanda #Cow @narendramodi </p>-->
+							<p id="demo3"></p>
+							<p>#Rwanda #Cow @narendramodi</p>
 							<img src="img/modiNews.jpg" height="50%;" width="100%;" style="border: 1px solid #dddddd; border-radius: 4px;">
 							<ul class="nav nav-pills nav-pills-custom" style="font-size: 20px;">
-								<li><a href="#"><span><i class="far fa-comment"></i></span></a></li>
-								<li><a href="#"><span><i class="fas fa-retweet"></i></span></a></li>
+								<li><a href="#" type="button" class="btn" data-toggle="modal" data-target="#exampleModal3" ><span><i class="far fa-comment"></i></span> 10 </a> </li>
+								<li><a href="#" type="button" class="btn" data-toggle="modal" data-target="#exampleModal3" ><span><i class="fas fa-retweet"></i></span> 25 </a> </li>
 								<li><a href="#"><span><i class="far fa-heart"></i></span></a></li>
 								<li><a href="#"><span><i class="far fa-envelope"></i></span></a></li>
 							</ul>
 						</div>
+					</div>
+
+
+					<div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModal3Label">
+					  <div class="modal-dialog" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					        <h4 class="modal-title text-center" id="exampleModal3Label">Reply to ABP News</h4>
+					      </div>
+					      <div class="modal-body">
+					        <form>
+					        <div class="row">
+					        <div class="col-sm-1">
+								<img alt="" class="media-object img-rounded" src="img/abp.png" height="40px" width="40px" style="margin-top: 10px">
+							</div>
+							<div class="col-sm-11">
+					      	<p id="commentPopup3"></p>
+					          <div class="form-group">
+					            <label for="message-text" class="control-label">Replaying to <small>@ABPNews</small>:</label>
+					            <textarea class="form-control" id="message-text"></textarea>
+					          </div>
+					          </div>
+					        </div>
+					        </form>
+					      
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-primary">Reply</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+
+
+
+					<div class="modal fade" id="exampleModal31" tabindex="-1" role="dialog" aria-labelledby="exampleModal31Label">
+					  <div class="modal-dialog" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					        <h4 class="modal-title text-center" id="exampleModal31Label">Retweet this to your followers?</h4>
+					      </div>
+					      <div class="modal-body">
+					        <form>
+					        <div class="row">
+					        	<div class="form-group" style="padding: 10px; background-color: #e8f5fd;">
+					            	<input class="form-control" id="message-text" placeholder="Add a Comment...">
+					        	</div>
+					        <div class="col-sm-1">
+								<img alt="" class="media-object img-rounded" src="img/znews.png" height="40px" width="40px" style="margin-top: 10px">
+							</div>
+							<div class="col-sm-11">
+					      	<p id="reTweet3"></p>
+
+					          </div>
+					        </div>
+					        </form>
+					      
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-primary">Retweet</button>
+					      </div>
+					    </div>
+					  </div>
 					</div>
 
 				</div>
@@ -229,23 +429,23 @@
 			<div class="well well-sm">
 				<ul class="list-inline" style="color: #657786; font-size: 12px;">
 					<li>© 2015 Twitter</li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Help Center</a></li>
-					<li><a href="#">Terms</a></li>
-					<li><a href="#">Privacy Policy</a></li>
-					<li><a href="#">Cookies</a></li>
-					<li><a href="#">Ads info</a></li>
-					<li><a href="#">Brand</a></li>
-					<li><a href="#">Blog</a></li>
-					<li><a href="#">Status</a></li>
-					<li><a href="#">Apps</a></li>
-					<li><a href="#">Jobs</a></li>
-					<li><a href="#">Marketing</a></li>
-					<li><a href="#">Businesses</a></li>
-					<li><a href="#">Developers</a></li>
+					<li><a href="https://about.twitter.com/">About</a></li>
+					<li><a href="https://help.twitter.com/">Help Center</a></li>
+					<li><a href="https://twitter.com/en/tos">Terms</a></li>
+					<li><a href="https://twitter.com/en/privacy">Privacy Policy</a></li>
+					<li><a href="https://business.twitter.com/en/help/troubleshooting/how-twitter-ads-work.html">Cookies</a></li>
+					<li><a href="https://business.twitter.com/en/help/troubleshooting/how-twitter-ads-work.html">Ads info</a></li>
+					<li><a href="https://about.twitter.com/en_us/company/brand-resources.html">Brand</a></li>
+					<li><a href="https://blog.twitter.com/">Blog</a></li>
+					<li><a href="https://status.twitterstat.us/">Status</a></li>
+					<li><a href="https://about.twitter.com/">Apps</a></li>
+					<li><a href="https://about.twitter.com/careers">Jobs</a></li>
+					<li><a href="https://marketing.twitter.com/na/en.html">Marketing</a></li>
+					<li><a href="https://twitter.com/">Businesses</a></li>
+					<li><a href="https://developer.twitter.com/">Developers</a></li>
 				</ul>
 				<div class="panel-footer">
-					<a href="#">
+					<a href="https://ads.twitter.com/onboarding/18ce54qvlmf/welcome?ref=gl-tw-tw-twitter-webtimeline">
 						<span><i class="fas fa-external-link-alt"></i></span>
 						Advertise with Twitter
 					</a>
@@ -256,30 +456,9 @@
 </div>
 
 
-<p id="demo"></p>
 
 
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="exampleModalLabel">Reply to </h4>
-      </div>
-      <div class="modal-body">
-        <form>
-          <div class="form-group">
-            <label for="message-text" class="control-label">Message:</label>
-            <textarea class="form-control" id="message-text"></textarea>
-          </div>
-        </form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary">Send message</button>
-      </div>
-    </div>
-  </div>
-</div>
+
 
 
 
