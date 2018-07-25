@@ -1,11 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500,700');
+
+* {
+	font-family: 'Rubik', sans-serif;
+	font-size: 14px;
+}
+
+body{
+	background-color: #e6ecf0;
+}
+
+.top-bar {
+	padding: 0px 5%;
+	font-weight: 500;
+}
+
+
 .nav-pills-custom>li>a {
-	color: lightgrey;
+	color: darkgrey;
+	font-size: 20px;
 }
 
 .nav-pills-custom>li>a:focus,
 .nav-pills-custom>li>a:hover {
 	background: none;
-	color: grey;
+	color: blue;
 }
 
 .panel-custom>.panel-heading {
@@ -16,6 +34,9 @@
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
 	background-color: #4ab3f4;
 }
+
+
+
 .form-control-nav{
 	background-color:#e6ecf0;
 	border: transparent solid 1px;
@@ -24,9 +45,7 @@
 	width: 200px;
 
 }
-body{
-	background-color: #e6ecf0;
-}
+
 .navbar-default .navbar-collapse, .navbar-default{
 background-color: white;
 }
@@ -60,8 +79,9 @@ div.panel-heading{
 }
 
 .panel-body>.media>a>img {
-	height: 64px;
-	width: 64px;
+	height: 48px;
+	width: 48px;
+	margin-top: 10px;
 }
 
 .well>.list-inline>li>a {

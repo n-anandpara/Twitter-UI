@@ -16,21 +16,21 @@
 <body>
 
   
-<div class="navbar navbar-default navbar-static-top">
-	<div class="container">
+<div class="navbar navbar-default navbar-fixed-top" style="border-bottom: 1px solid #cccccc; box-shadow: 2px 2px 1px #dddddd;" >
+	<div class="top-bar">
 		<div class="navbar-collapse navbar-collapse-1 collapse" aria-expanded="true">
 			<ul class="nav navbar-nav" style="font-size: 16px;">
 				<li class="active">
-					<a href="#"><span class="glyphicon glyphicon-home"></span> Home</a>
+					<a href="#"><span class="glyphicon glyphicon-home" style="font-size: 18px;"></span> Home</a>
 				</li>
 				<li>
-					<a href="#"><span><i class="fas fa-bolt"></i></span> Messages</a>
+					<a href="#"><span><i class="fas fa-bolt" style="font-size: 18px;"></i></span> Messages</a>
 				</li>
 				<li>
-					<a href="#"><span><i class="far fa-bell"></i></span> Notifications</a>
+					<a href="#"><span><i class="far fa-bell"  style="font-size: 18px;"></i></span> Notifications</a>
 				</li>
 				<li>
-					<a href="#"><span><i class="far fa-envelope"></i></span> Messages</a>
+					<a href="#"><span><i class="far fa-envelope"  style="font-size: 18px;"></i></span> Messages</a>
 				</li>
 			</ul>
 			<a href="https://twitter.com/"><img src="img/icon.png" height="24px" width="24px" class="text-center" style="margin: 15px auto 10px auto; padding: 0px auto;" ></a> 
@@ -46,27 +46,39 @@
 	</div>
 </div>
 
-<div class="container">
+<div class="container" style="position: relative; margin-top: 60px;">
 	<div class="row">
 		<div class="col-sm-3">
 			<div class="panel panel-default">
 				<div class="panel-body" style="padding: 0px !important;">
 					<a href="#"><img class="img-responsive" alt="" src="img/blue-img.png" style="height: 100px !important; width: 100%;"></a>
-					<div class="row" style="padding: 10px;">
+
+					<div class="row">
+						<div class="col-sm-3">
+							<img class="img-circle" src="img/screenshot.png" height="75px" width="75px" style="border: 3px #ffffff solid; margin-left:10px; margin-top: -30px;">
+						</div>
+						<div class="col-sm-9" style="left: 9%; padding: 20px auto 0px; position: relative;">
+							<span style="font-size: 18px; font-weight: 500;">Neha Anandpara</span><br/>
+							<small style="color: #666666; font-size: 14px; font-weight: 300;">@NehaAnandpara</small>
+						</div>
+					</div>
+
+
+					<div class="row" style="padding: 0px 10px;">
 						<div class="col-xs-3">
-							<h5 style="font-weight: bold;">
+							<h5 style="font-weight: bold; line-height: 2rem;">
 								<small>Tweets</small>
 								<a href="#">2,934</a>
 							</h5>
 						</div>
 						<div class="col-xs-4">
-							<h5 style="font-weight: bold;">
+							<h5 style="font-weight: bold; line-height: 2rem;">
 								<small>Following</small>
 								<a href="#">975</a>
 							</h5>
 						</div>
 						<div class="col-xs-5">
-							<h5 style="font-weight: bold;">
+							<h5 style="font-weight: bold; line-height: 2rem;">
 								<small>Followers</small>
 								<a href="#">1,769</a>
 							</h5>
@@ -74,6 +86,8 @@
 					</div>
 				</div>
 			</div>
+
+
 
 			<div class="panel panel-default panel-custom">
 				<div class="panel-heading">
@@ -115,11 +129,9 @@
 				<div class="panel-body">
 					<div class="media">
 						<a class="media-left" href="#">
-							<img alt="" class="media-object img-rounded" src="img/toi.jpg">
+							<img alt="" class="media-object img-rounded img-circle" src="img/toi.jpg">
 						</a>
 						<div class="media-body">
-							<!--<h4 class="media-heading">Times of India <small>@timesofindia . 40m </small></h4>
-							<p>21-year-old woman accuses cops of gang rape in Bhopal http://toi.in/398LhY/a24gk  via @TOICitiesNews</p>-->
 							<p id="demo1"></p>
 							<p> @TOICitiesNews </p>
 							<img src="img/news1.jpg" height="50%;" width="100%;" style="border: 1px solid #dddddd; border-radius: 4px;">
@@ -202,7 +214,7 @@
 
 					<div class="media">
 						<a class="media-left" href="#">
-							<img alt="" class="media-object img-rounded" src="img/aol.jpg">
+							<img alt="" class="media-object img-rounded img-circle" src="img/aol.jpg">
 						</a>
 						<div class="media-body">
 							<!--<h4 class="media-heading">Art Of Living <small>@ArtOfLiving . Jul 22</small></h4>
@@ -290,7 +302,7 @@
 
 					<div class="media">
 						<a class="media-left" href="#">
-							<img alt="" class="media-object img-rounded" src="img/abp.png">
+							<img alt="" class="media-object img-rounded img-circle" src="img/abp-b.jpg">
 						</a>
 						<div class="media-body">
 							<!--<h4 class="media-heading">ABP News</h4>
