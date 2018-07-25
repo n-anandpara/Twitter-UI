@@ -19,7 +19,7 @@
 <div class="navbar navbar-default navbar-static-top">
 	<div class="container">
 		<div class="navbar-collapse navbar-collapse-1 collapse" aria-expanded="true">
-			<ul class="nav navbar-nav">
+			<ul class="nav navbar-nav" style="font-size: 16px;">
 				<li class="active">
 					<a href="#"><span class="glyphicon glyphicon-home"></span> Home</a>
 				</li>
@@ -33,6 +33,7 @@
 					<a href="#"><span><i class="far fa-envelope"></i></span> Messages</a>
 				</li>
 			</ul>
+			<a href="https://twitter.com/"><img src="img/icon.png" height="24px" width="24px" class="text-center" style="margin: 15px auto 10px auto; padding: 0px auto;" ></a> 
 			<div class="navbar-form navbar-right">
 				<div class="form-group has-feedback">
 					<input type="text" class="form-control-nav" id="search" aria-describedby="search1" placeholder="Search Twitter" style="padding: 8px; border-color: lightgrey;">
@@ -123,7 +124,7 @@
 							<p> @TOICitiesNews </p>
 							<img src="img/news1.jpg" height="50%;" width="100%;" style="border: 1px solid #dddddd; border-radius: 4px;">
 							<ul class="nav nav-pills nav-pills-custom" style="font-size: 20px;">
-								<li><a href="#" type="button" class="btn" data-toggle="modal" data-target="#exampleModal" ><span><i class="far fa-comment"></i></span> 12 </a></li>
+								<li><a href="#" type="button" class="btn" data-toggle="modal" data-target="#exampleModal" ><span><i class="far fa-comment"></i></span><span id="comment1"> 12 </span> </a></li>
 								<li><a href="#" type="button" class="btn" data-toggle="modal" data-target="#exampleModal11" ><span><i class="fas fa-retweet"></i></span> 51 </a></li>
 								<li><a href="#" type="button" class="btn" onclick="myFunction();"><span><i class="far fa-heart"></i></span><span id="like1"> 51 </span></a></li>
 								<li><a href="#"><span><i class="far fa-envelope"></i></span></a></li>
@@ -156,7 +157,7 @@
 					      
 					      </div>
 					      <div class="modal-footer">
-					        <button type="button" class="btn btn-primary">Reply</button>
+					      	<input type="submit" name="" value="Reply" class="btn btn-primary" onclick="myComment()">
 					      </div>
 					    </div>
 					  </div>

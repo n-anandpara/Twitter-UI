@@ -26,7 +26,7 @@ myObj = {
         	"hashTag": ["#Cows", "#Rwanda"]
         }
     ]
-}
+} 
 
 
 var x =  "<h4>" + myObj.News[0].postBy + "<small>" + "  " + myObj.News[0].postById + " . " + myObj.News[0].postTime + "</small></h4>" + "<p>" + myObj.News[0].post + "</p>";
@@ -45,6 +45,17 @@ var z =  "<h4>" + myObj.News[2].postBy + "<small>" + "  " + myObj.News[2].postBy
 document.getElementById("demo3").innerHTML =  z;
 document.getElementById("commentPopup3").innerHTML =  z;
 document.getElementById("reTweet3").innerHTML =  z;
+
+
+
+
+/*Comment Number Increases on commenting on first post*/ 
+var c1 = document.getElementById("comment1").innerHTML;
+function myComment() {
+    c1++;
+    document.getElementById("comment1").innerHTML = " " + c1;
+}
+
 
 
 
