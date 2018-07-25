@@ -8,6 +8,14 @@
 body{
 	background-color: #e6ecf0;
 }
+small{ 
+	font-size: 12px;
+ }
+
+small>a{ 
+	font-size: 12px;
+ }
+
 
 .top-bar {
 	padding: 0px 5%;
@@ -35,7 +43,14 @@ body{
 	background-color: #4ab3f4;
 }
 
+.navbar-default .navbar-nav > li > a:hover {
+	color: #4ab3f4 !important;
+}
 
+.navbar-default .navbar-nav>.active>a:hover {
+	text-decoration: none;
+	color: 	#333 !important;
+}
 
 .form-control-nav{
 	background-color:#e6ecf0;
@@ -87,3 +102,5 @@ div.panel-heading{
 .well>.list-inline>li>a {
 	color: #657786;
 }
+
+

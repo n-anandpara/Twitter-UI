@@ -116,5 +116,21 @@ function myFunction2(){
 
 
 
+function followFunction1() {
+    document.getElementById("followB1").style.background = "#4ab3f4";
+    document.getElementById("followB1").style.color = "#ffffff";
+    document.getElementById("followB1").innerHTML = "Following";
+}
 
+function followFunction2() {
+    document.getElementById("followB2").style.background = "#4ab3f4";
+    document.getElementById("followB2").style.color = "#ffffff";
+    document.getElementById("followB2").innerHTML = "Following";
+}
+
+function followFunction3() {
+    document.getElementById("followB3").style.background = "#4ab3f4";
+    document.getElementById("followB3").style.color = "#ffffff";
+    document.getElementById("followB3").innerHTML = "Following";
+}
 

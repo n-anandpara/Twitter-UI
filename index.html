@@ -33,20 +33,24 @@
 					<a href="#"><span><i class="far fa-envelope"  style="font-size: 18px;"></i></span> Messages</a>
 				</li>
 			</ul>
-			<a href="https://twitter.com/"><img src="img/icon.png" height="24px" width="24px" class="text-center" style="margin: 15px auto 10px auto; padding: 0px auto;" ></a> 
+			
+			<div style="margin: 15px auto; position: absolute; left: 45%;">
+			<a href="https://twitter.com/"><img src="img/icon.png" height="30px" width="30px" ></a> 
+			</div>
+
 			<div class="navbar-form navbar-right">
 				<div class="form-group has-feedback">
 					<input type="text" class="form-control-nav" id="search" aria-describedby="search1" placeholder="Search Twitter" style="padding: 8px; border-color: lightgrey;">
 					<span class="glyphicon glyphicon-search form-control-feedback" aria-hidden="true"></span>
 				</div>
-
-				<button class="btn" type="submit" aria-label="Left Align" style="border-radius: 15px; background-color: #4ab3f4; color: #ffffff; font-weight: bold;"> Tweet </button>
+				<img alt="" class="img-rounded" src="img/user.png" height="30px" width="30px" style="margin: 5px; ">
+				<button class="btn btn-sm" type="submit" aria-label="Left Align" style="border-radius: 15px; background-color: #4ab3f4; color: #ffffff; font-weight: bold;"> Tweet </button>
 			</div>
 		</div>
 	</div>
 </div>
 
-<div class="container" style="position: relative; margin-top: 60px;">
+<div class="container" style="position: relative; margin-top: 80px;">
 	<div class="row">
 		<div class="col-sm-3">
 			<div class="panel panel-default">
@@ -393,7 +397,7 @@
 			<div class="panel panel-default panel-custom">
 				<div class="panel-heading">
 					<h3 class="panel-title">
-						<span style="font-weight: bold;">Who to follow</span>
+						<span style="font-weight: bold; font-size: 16px;">Who to follow</span>
 						<small><a href="#" style="color: #1e90ff;">Refresh</a> . <a href="#" style="color: #1e90ff;">View all</a></small>
 					</h3>
 				</div>
@@ -404,7 +408,7 @@
 						</div>
 						<div class="media-body">
 							<h4 class="media-heading">Times of India <small>@timesofindia</small></h4>
-							<a href="#" class="btn btn-default btn-xs" style="color: #1da1f2; font-weight: bold; border-color: #1da1f2; border-radius: 10px;">
+							<a href="#" class="btn btn-default btn-xs" id="followB1"  onclick="followFunction1()" style="color: #1da1f2; font-weight: bold; border-color: #1da1f2; border-radius: 10px;">
 								Follow
 							</a>
 						</div>
@@ -415,7 +419,7 @@
 						</div>
 						<div class="media-body">
 							<h4 class="media-heading">Art Of Living <small>@artofliving</small></h4>
-							<a href="#" class="btn btn-default btn-xs" style="color: #1da1f2; font-weight: bold; border-color: #1da1f2; border-radius: 10px;">
+							<a href="#" class="btn btn-default btn-xs" id="followB2" onclick="followFunction2()"  style="color: #1da1f2; font-weight: bold; border-color: #1da1f2; border-radius: 10px;">
 								Follow
 							</a>
 						</div>
@@ -426,7 +430,7 @@
 						</div>
 						<div class="media-body">
 							<h4 class="media-heading">Zee News <small>@ZeeNews</small></h4>
-							<a href="#" class="btn btn-default btn-xs" style="color: #1da1f2; font-weight: bold; border-color: #1da1f2; border-radius: 10px;">
+							<a href="#" class="btn btn-default btn-xs" id="followB3" onclick="followFunction3()"  style="color: #1da1f2; font-weight: bold; border-color: #1da1f2; border-radius: 10px;">
 								Follow
 							</a>
 						</div>
